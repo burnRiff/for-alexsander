@@ -197,57 +197,73 @@
 }
 
 /* ------------------------------
- Content3
+ Content4
  ------------------------------*/
-.content3 .date a img{
-    width: 12px;
-    margin-right: 15px;
+.content4 .green-btn{
+    float: left;
+    width: 216px;
+    border-radius: 3px;
+    padding: 0;
+    height: 49px;
 }
-.content3 .title a:hover{
-    text-decoration: none;
+.kabinet-data  .content4 h3{
+    margin-bottom: 15px;
 }
-.content3 .title a{
-    text-decoration: underline;
-    color: #8287ed;
-}
-.content3 .date a{
+.content4 .line .info span{
+    font-size: 19px;
     float: right;
 }
-.content3 .date{
-    font-size: 12px;
-    color: #acacac;
-    width: 100%;
-    display: block;
-    position: relative;
+.content4 .history .title{
+    font-size: 20px;
+    font-weight: lighter;
 }
-.content3 .messages{
-    width: 450px;
-    margin-left: 17px;
+.content4 .hr-bottom{
+    margin-bottom: 0;
 }
-.content3 .one-message .date:before{
-    content: '';
-    position: absolute;
-    background: url("images/circle.png") no-repeat;
-    width: 9px;
-    height: 9px;
-    left: -20px;
-    top: 3px;
+.content4 .hr-top{
+    margin-bottom: 10px;
 }
-.content3 .one-message + .one-message{
+.content4 .line + .line{
     border-top: 1px solid #ebebeb;
+    padding-top: 10px;
+    margin-top: 10px;
 }
-.content3 .one-message{
-    padding: 25px 0 20px;
+.content4 .lines{
+    margin-top: 10px;
 }
-.content3 .navigation:hover{
-    border-bottom: 0;
+.content4 .line .info.plus{
+    color: #3fb60f;
 }
-.content3 .navigation{
+.content4 .line .date{
+    color: #acacac;
+    font-size: 12px;
+}
+.content4 .line .who a:hover{
+    text-decoration: none;
+}
+.content4 .line .who a{
+    color: #8287ed;
+    text-decoration: underline;
+}
+.content4 .line .who{
+    font-size: 12px;
+}
+.content4 .more-count:hover{
+    text-decoration: none;
+}
+.content4 .more-count{
     font-size: 13px;
     color: #acacac;
-    border-bottom: 1px solid #bfbfbf;
+    text-decoration: underline;
+    float: left;
 }
-.content3 .title{
-    display: block;
-    margin: 5px 0 10px;
+.content4 .line .info{
+    font-size: 17px;
+}
+.content4{
+    padding-bottom: 50px;
+}
+.content4 .balance{
+    color: #252525;
+    font-size: 20px;
 }
