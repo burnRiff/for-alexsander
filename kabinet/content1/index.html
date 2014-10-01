@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EZOTERICUM</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href="kabinet.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header class="menu">
+		<div class="container-wrap">
+			<div class="container">
+                <div class="logo"><a href="#"><img src="images/logo.png" alt="" title=""/></a></div>
+                <a href="#" class="all-exp" >ВСЕ ЭКСПЕРТЫ</a>
+                <div class="dropdown navbar-left">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/dropdown.png"/></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">все категории</a></li>
+                        <li><a href="#">письменный ответ</a></li>
+                        <li><a href="#">гадание по руке</a></li>
+                        <li><a href="#">любовь и отношения</a></li>
+                        <li><a href="#">дом и семья</a></li>
+                        <li><a href="#">душа и тело</a></li>
+                        <li><a href="#">карьера и бизнес</a></li>
+                        <li><a href="#">ясновидение</a></li>
+                        <li><a href="#">путешествия и переезды</a></li>
+                        <li><a href="#">толкование снов</a></li>
+                        <li><a href="#">ритуалы и энергия</a></li>
+                    </ul>
+                </div>
+					<form class="navbar-left" role="search">
+					  <div class="form-group">
+						<input id="search" type="text" class="form-control" value="ПОИСК ПО САЙТУ">
+					  </div>
+					  <a href="#" class="glyphicon glyphicon-search search-button" onclick="document.getElementById('search').submit()"></a>
+					</form>
+
+				<div class="pull-right">
+					<a href="#">ЛИЧНЫЙ КАБИНЕТ</a>
+					<span class="dash">|</span>
+					<a href="#">ПОПОЛНИТЬ СЧЕТ</a>
+				</div>
+
+                <div class="pull-right info">
+                    <a href="#" class="message"><span>2</span></a>
+                    <a href="#" class="user-profile"></a>
+                </div>
+			</div>
+		</div>
+	</header>
+  <main class="wrap">
+      <div class="container-wrap">
+          <div class="container">
+              <div class="page row">
+                  <div class="col-md-8">
+                    <div class="row kabinet-data">
+                        <div class="col-md-4 kabinet-col-4">
+                            <img src="images/user.png">
+                            <br>
+                            <span>Елена<br>Степанова</span>
+                            <ul>
+                                <li class="ui"><a href="#">Мои данные</a> </li>
+                                <li class="photos"><a href="#">Мои фото</a> </li>
+                                <li class="ms"><a href="#">Мои сообщения</a> </li>
+                                <li class="ls"><a href="#">Мой личный счет</a> </li>
+                            </ul>
+                            <p>
+                                Счет: 250 кредитов<br>
+                                <a href="#">Пополнить счет</a>
+                            </p>
+                        </div>
+                        <div class="col-md-9 kabinet-col-9">
+                            <h3>Мои данные</h3>
+                            <div class="inshadow-form">
+                                <form class="form-data">
+                                    <hr class="hr-top">
+                                    <div class="line">
+                                        <label>
+                                            <span>Имя</span>
+                                            <input type="text">
+                                        </label>
+                                    </div>
+                                    <div class="line">
+                                        <label>
+                                            <span>Фамилия</span>
+                                            <input type="text">
+                                        </label>
+                                    </div>
+                                    <div class="line">
+                                        <label>
+                                            <span>Дата рождения</span>
+                                            <select>
+                                                <option value="">08</option>
+                                                <option value="">09</option>
+                                            </select>
+                                            <select>
+                                                <option value="">Октябрь</option>
+                                                <option value="">Ноябрь</option>
+                                            </select>
+                                            <select>
+                                                <option value="">1963</option>
+                                                <option value="">1964</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                    <div class="line">
+                                        <label>
+                                            <span>Пол</span>
+                                            <select>
+                                                <option value="">Женский</option>
+                                                <option value="">Мужской</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                    <div class="line">
+                                        <label>
+                                            <span>О себе</span>
+                                            <textarea rows="7"></textarea>
+                                        </label>
+                                    </div>
+                                    <hr class="hr-bottom">
+                                    <div class="line buttons">
+                                        <button class="grey-btn">Отмена</button>
+                                        <button class="green-btn">Сохранить</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="howto">
+                          <a href="#">как это работает?</a><br/>
+                          <p>Всё, что вы хотите знать о сервисе Ezotericum</p>
+                      </div>
+                      <div class="support">
+                          <a href="#">Служба поддержки пользователей</a><br/>
+                          <p>Поможем немедленно при любых затруднениях</p>
+                      </div>
+                      <div class="goto">
+                          <a href="#" class="to-expert">Экспертам</a>
+                          <a href="#" class="to-master">Мастерам</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </main>
+  <footer>
+      <div class="container-wrap">
+        <ul class="footer-links">
+            <li><a href="#">Пользовательское соглашение</a></li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+            <li><a href="#">Гарантия возврата средств</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+          <p>Ezotericum.ru содержит информацию только для совершеннолетних (18+)</p>
+          <p>Эффективность предлагаемых на сайте практик научно не доказана, поэтому никакой результат при их применении не может быть гарантирован.<br/>
+              Данные практики должны рассматриваться только как развлечение.</p>
+          <p class="copy">Эксперты не являются сотрудниками Ezotericum.</p>
+          <p class="copy">© 2014 Ezotericum | Этот веб-сайт находится в собственности и под управлением Ezotericum</p>
+    </div>
+  </footer>
+  </body>
+</html>
